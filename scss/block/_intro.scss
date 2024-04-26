@@ -1,0 +1,107 @@
+.intro {
+    padding-top: 32px;
+
+    &__block {
+        display: flex;
+        justify-content: space-between;
+        gap: 23px;
+    }
+
+    &__content {
+        border-radius: 12px;
+        box-shadow: 0px 18px 34px 0px rgba(5, 16, 55, 0.15);
+        background: rgb(255, 255, 255);
+        padding: 48px 36px 36px 36px;
+    }
+
+    &__info {
+        display: flex;
+        margin-top: 40px;
+        margin-bottom: 64px;
+    }
+
+    &__info_title {
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        margin-bottom: 12px;
+    }
+
+    &__info_item:first-child {
+        padding-right: 24px;
+        border-right: 1px solid rgb(199, 199, 204);
+    }
+
+    &__info_item:last-child {
+        padding-left: 24px;
+    }
+
+    &__info_sub_title {
+        color: rgb(0, 0, 0);
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 24px;
+        margin-bottom: 8px;
+    }
+
+    &__info_cap {
+        color: rgb(142, 142, 147);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18px;
+    }
+
+    &__info_list {
+        display: flex;
+        gap: 20px;
+    }
+
+    &__title {
+        color: rgb(0, 0, 0);
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 36px;
+        margin-bottom: 12px;
+    }
+
+    &__cap {
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 16px;
+
+        &::before {
+            content: url('/img/intro__cap.png');
+            margin-right: 8px;
+            margin-top: -50%;
+            vertical-align: middle;
+        }
+    }
+}
+
+.intro__content_btn {
+    display: block;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    border-radius: 45px;
+    background: rgb(0, 122, 255);
+    padding: 20px 0;
+    transition: all 0.3s;
+
+    &:hover {
+        opacity: 0.8;
+    }
+
+    &:last-child {
+        color: rgb(0, 122, 255);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18px;
+        padding: 20px 0 0 0;
+        background-color: transparent;
+    }
+}

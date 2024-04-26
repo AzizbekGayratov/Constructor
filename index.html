@@ -1,12 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <header class="header">
+        <div class="container">
+            <div class="header__block">
+                <a href="./index.html" class="header__logo_block">
+                    <img src="./img/logo.svg" alt="logo">
+                </a>
+                <form class="header__form">
+                    <input type="text" class="header__input" placeholder="Search Rolling">
+                    <div class="search__result">
+                    </div>
+                </form>
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a href="#" class="header__link">Explore</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link">Activity</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link">Feed</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link">Bids</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link" id="header__btn1">
+                            <img src="./img/icon.svg" alt="icon">
+                        </a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link" id="header__btn2">Connect Wallet</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="intro">
+            <div class="container">
+                <div class="intro__block">
+                    <div class="intro__img_block">
+                        <img src="./img/intro.png" alt="img">
+                    </div>
+                    <div class="intro__content">
+                        <h2 class="intro__title">The circle's pristine cleanliness</h2>
+                        <p class="intro__cap">Tung Tran</p>
+                        <div class="intro__info">
+                            <div class="intro__info_item">
+                                <h3 class="intro__info_title">Current Bid</h3>
+                                <div class="intro__info_content">
+                                    <h4 class="intro__info_sub_title">0.85 ETH</h4>
+                                    <p class="intro__info_cap">$2,169.42</p>
+                                </div>
+                            </div>
+                            <div class="intro__info_item">
+                                <h3 class="intro__info_title">Auction ends in</h3>
+                                <ul class="intro__info_list">
+                                    <li class="intrp__info_list_item">
+                                        <h4 class="intro__info_sub_title">3</h4>
+                                        <p class="intro__info_cap">Hours</p>
+                                    </li>
+                                    <li class="intrp__info_list_item">
+                                        <h4 class="intro__info_sub_title">16</h4>
+                                        <p class="intro__info_cap">Minutes</p>
+                                    </li>
+                                    <li class="intrp__info_list_item">
+                                        <h4 class="intro__info_sub_title">58</h4>
+                                        <p class="intro__info_cap">Seconds</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="intro__content__btn_block">
+                            <a href="#" class="intro__content_btn">Place a bid</a>
+                            <a href="#" class="intro__content_btn">View artwork</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./main.js"></script>
 </body>
+
 </html>
