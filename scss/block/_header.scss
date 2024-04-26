@@ -87,7 +87,18 @@
 }
 
 .search__result {
+    display: none;
     position: absolute;
     width: 430px;
     margin-left: 17px;
+    background-color: #fff;
+    box-shadow: 0px 12px 24px 0px rgba(5, 16, 55, 0.1);
+    padding: 10px 20px 10px 10px;
+    border-radius: 8px;
+}
+
+.search__cap{
+    display: block;
+    cursor: pointer;
+    margin-bottom: 5px;
 }
