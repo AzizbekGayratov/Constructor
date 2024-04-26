@@ -38,7 +38,6 @@ input.addEventListener("keyup", (e) => {
         search_result.style.display = "none";
     }
 
-    console.log(value);
 })
 
 
@@ -54,13 +53,5 @@ input.addEventListener("focus", () => {
     }
 
 })
-
-
-
-
-
-
-
-
 
 getData()
